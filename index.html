@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 5</title>
+    <style>
+        .ellipse-design{
+            background-color: gray;
+            height: 100px;
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
     
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -107,9 +115,10 @@
                 <!--Pentagon End--> 
 
 
-                <!--Ellipse Start-->            
+                <!--Ellipse Start-->                  
+
                 <div class="card card-compact w-full bg-base-100 shadow-xl items-center"> 
-                    <div class="mask mask-pentagon bg-green-300 h-32 w-32 p-4"> 
+                    <div class="ellipse-design "> 
                     </div>
                     <div class="card-body">
                         <h2 class="card-title content-center" id="ellipse-title">Ellipse</h2>
@@ -119,16 +128,16 @@
                         <button class="btn btn-info" id="ellipse-calculation">Calculate</button> 
                     </div>
                 </div> 
+                
                 <!--Ellipse End--> 
             
             </div>
-            
-            
+                      
 
 
 
-            <div class="area-result-details w-full md:w-[30%] lg:w-[30%] mx-auto ">
-                <h1 class="text-3xl text-center font-bold underline margin-top">Area Calculation</h1>
+            <div class="area-result-details w-full md:w-[30%] lg:w-[30%] mx-auto border-slate-400 shadow-xl">
+                <h1 class="text-3xl text-center font-bold underline margin-top border-slate-400">Area Calculation</h1>
         
                 <div class="overflow-x-auto">
                     <table class="table w-full">
